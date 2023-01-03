@@ -1,0 +1,32 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "multi-tool"
+version = "0.3.0"
+description = "organize interact with scripts via a plugin style pattern, using a browser based interface"
+authors = ["tyler jones"]
+packages = [
+    { include = "multitool" },
+]
+
+[tool.poetry.scripts]
+ms = "multitool.web:main" 
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+toml = "^0.10.2"
+idom = { version = "0.42.0", extras = ["flask"] }
+flask = "2.0.1"
+
+[tool.semantic_release]
+version_variable = [
+    "multitool/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_release = false
+build_command = "pip install poetry && poetry build"
+version_source = "commit"
+patch_without_tag = true
