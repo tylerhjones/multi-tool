@@ -5,7 +5,7 @@ build-backend = "poetry.masonry.api"
 [tool.poetry]
 name = "multi-tool"
 version = "0.1.0"
-description = "organize interact with scripts via a plugin style pattern, using a browser based interface"
+description = "organize and interact with scripts via a plugin style pattern, using a browser based interface"
 authors = ["tyler jones"]
 packages = [
     { include = "multitool" },
