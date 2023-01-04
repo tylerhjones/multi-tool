@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "organize and interact with scripts via a plugin style pattern, using a browser based interface"
 authors = ["tyler jones"]
 packages = [
-    { include = "multitool" },
+    { include = "scriptgui" },
 ]
 
 [tool.poetry.scripts]
