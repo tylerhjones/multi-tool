@@ -10,7 +10,7 @@ def basic_text():
     return 'Hello, World!'
 ```
 
-![alt text](https://github.com/tylerhjones/scriptgui/blob/main/readme/text_demo.png?raw=true)
+![alt text](https://github.com/tylerhjones/scriptgui/blob/main/readme/basic_text_demo.png?raw=true)
 
 ## Quick Start
 
