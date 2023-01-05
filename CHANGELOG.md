@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.2 (2023-01-05)
+### Fix
+* Rename to force cache invalidation ([`12e34c0`](https://github.com/tylerhjones/scriptgui/commit/12e34c084ab89f4a38e1f40f9c58ecff5036f032))
+* Update img ([`f1f6031`](https://github.com/tylerhjones/scriptgui/commit/f1f6031e30059006c91f4a0956de3a68f2974265))
+
 ## v0.2.1 (2023-01-05)
 
 
