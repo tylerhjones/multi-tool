@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-01-05)
+
+
 ## v0.2.0 (2023-01-05)
 ### Feature
 * Hello world poc!! ([`a1ad566`](https://github.com/tylerhjones/scriptgui/commit/a1ad56637f07a559d9bb66df472fb8a150f5cdf3))

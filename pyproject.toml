@@ -4,7 +4,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry]
 name = "scriptgui"
-version = "0.2.0"
+version = "0.2.1"
 description = "organize and interact with scripts via a plugin style pattern, using a browser based interface"
 authors = ["tyler jones"]
 packages = [
